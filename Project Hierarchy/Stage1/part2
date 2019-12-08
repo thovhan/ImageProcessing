@@ -1,0 +1,9 @@
+Mainly Gaussian filter smoothens the image for layer execution better then others.
+
+1 4 7 4 1
+4 16 26 16 4
+7 26 41 26 7
+4 16 26 16 4
+1 4 7 4 1
+
+Median filter is gives prominent regions too. But I don't know yet how to combine them.
