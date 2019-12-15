@@ -1,9 +1,1 @@
-Mainly Gaussian filter smoothens the image for layer execution better then others.
-
-1 4 7 4 1
-4 16 26 16 4
-7 26 41 26 7
-4 16 26 16 4
-1 4 7 4 1
-
-Median filter is gives prominent regions too. But I don't know yet how to combine them.
+During the experiments it is easy to notice the tendency that Median have better effects on face image smoothing. Also considering the fact that median reduces/removes noise (isolated dots, peaks). So I have decided to conduct further analysis with only median in order to be determine the most optimal radius for so called Universal/Average filter. 
