@@ -1,3 +1,4 @@
 During the experiments it is easy to notice the tendency that Median have better effects on face image smoothing.
 Also considering the fact that median reduces/removes noise (isolated dots, peaks). 
-So I have decided to conduct further analysis with only median in order to be determine the most optimal radius for so called Universal/Average filter. 
+So I have decided to conduct further analysis with only median in order to be determine the most optimal radius for so called Universal/Average filter.
+The experiments showed Median Filter with Radius=5 as the most favorable one.
