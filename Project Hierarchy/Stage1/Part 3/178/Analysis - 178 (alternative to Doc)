@@ -1,0 +1,26 @@
+Binary Layer 0 – along face bounds
+
+Left rotation (04) – xC decreased, yC increased.
+Right rotation - centroid moved higher
+Smile – small difference too
+Median filter – difference is small
+
+Binary Layer 1 – skin pixels
+Left – xC changed more compared to yC
+Right – no dramatic changes, a bit more xC increased
+Smile – no dramatic changes
+
+Binary Layer 2 – central region around nose, eyebrows and lips
+
+Left - no big changes, xC+, yC-
+Right – almost same
+Smile – almost same, however I expected increased yC
+
+Binary Layer 3 – lips and ears
+
+Left – almost same
+Right – same
+Smile – almost same too. Also expected centroid to get higher
+
+So we may conclude that head rotations mostly affect on boundaries. 
+Application of the average filter mostly have no effect on centroid position.
