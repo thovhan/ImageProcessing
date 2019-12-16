@@ -1,0 +1,3 @@
+The process is mainly identical to RGB case.
+Main difference is seperation between Hue, Saturation and Value channels, and Color.RGBtoHSB method. Even for matching case.
+As we may see, in this case resulted images are more scattered and mainly boundaries of the faces are highlighted.
